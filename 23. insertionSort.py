@@ -8,6 +8,6 @@ def insertion_sort(inputList):
             j =  j - 1
             inputList[j+1] = nxt_element
 
-list = [12, 56, 11, 25, 3, 69, 77, 22]
+list = [12, 58, 5, 47, 11, 26, 3, 8, 99]
 insertion_sort(list)
 print(list)

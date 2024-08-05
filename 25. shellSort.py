@@ -23,11 +23,11 @@ def merge(left_half, right_half):
             right_half.remove(right_half[0])
 
     if len(left_half) == 0:
-        res = res + right_half;
+        res = res + right_half
     else:
-        res = res + left_half;
+        res = res + left_half
 
     return res
 
-unsorted_list = [64, 25, 11, 22, 15, 85, 80]
+unsorted_list = [12, 25, 88, 45, 66, 85, 20]
 print(merge_sort(unsorted_list))
